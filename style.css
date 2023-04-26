@@ -20,14 +20,12 @@ h1 {
 hr {
     border: 1px solid black;
     width: 100%;
-
 }
 
 .AwsomeBkForm {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #BookRecord {
@@ -36,7 +34,6 @@ hr {
 
 form {
     width: 60%;
-
 }
 
 input {

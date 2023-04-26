@@ -6,24 +6,22 @@ const title = document.getElementById('book_title');
 const authors = document.getElementById('book_authors');
 const libraryForm = document.getElementById('AwsomeBkForm');
 const allbooks = document.getElementById('BookRecord');
- 
- 
-function displayBook(book_title, book_author, id) {
-    const templateHTML = `${book_title}<br> ${book_author}<br>
-    <button type='button' class="remove" id="${id}">Remove</button>
-    <hr>`;
-    allbooks.insertAdjacentHTML('beforeend', templateHTML);
-}
-class Book {
+ class Book {
     constructor(book_title, book_author) {
         this.book_title = book_title;
         this.book_author = book_author;       
     }
 }
 
-//add function for local storage
-const mybooks = JSON.parse(localStorage.getItem('bookArchive')) || [];
 
+function displayBook(book_title, book_author, id) {
+    const templateHTML = `${book_title}<br> ${book_author}<br>
+    <button type='button' class="remove" id="${id}">Remove</button>
+    <hr>`;
+    allbooks.insertAdjacentHTML('beforeend', templateHTML);
+}
+ 
+const mybooks = JSON.parse(localStorage.getItem('bookArchive')) || []; 
 function getBooks() {
     const storage = JSON.parse(localStorage.getItem('bookArchive'));
     storage.forEach((book) => {
@@ -48,10 +46,9 @@ function addBook() {
     localStorage.setItem('bookArchive', JSON.stringify(mybooks));
     getBooks();
 }
-
 addBook();
 
-//add remove book functionality
+// remove book functionality
 const removeAction = document.querySelectorAll('.remove');
 removeAction.forEach((btn, index) => {
     btn.addEventListener('click', () => {

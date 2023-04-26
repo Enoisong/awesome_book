@@ -13,7 +13,6 @@ const allbooks = document.getElementById('BookRecord');
     }
 }
 
-
 function displayBook(book_title, book_author, id) {
     const templateHTML = `${book_title}<br> ${book_author}<br>
     <button type='button' class="remove" id="${id}">Remove</button>

@@ -5,7 +5,8 @@ html {
   padding: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 2vw;
   text-align: center;
   padding: 0;
@@ -55,14 +56,15 @@ hr {
   flex-direction: column;
   align-items: center;
   width: auto;
-  margin: 2rem;  
-  }
+  margin: 2rem;
+}
+
 #AwsomeBkForm #bookTitle {
-  width: 100%
+  width: 100%;
 }
 
 #AwsomeBkForm #bookAuthors {
-  width: 100%
+  width: 100%;
 }
 
 form {
@@ -73,7 +75,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0;
+  padding: 0;
 }
 
 tr:nth-child(odd) {
@@ -83,7 +85,7 @@ tr:nth-child(odd) {
 .table-item > p {
   padding: 0;
   line-height: 0%;
-  margin-left: 3% ;
+  margin-left: 3%;
 }
 
 input {
@@ -101,12 +103,12 @@ input {
   border: 1px solid #000;
   padding: 1%;
   border-radius: 7%;
-  background-color: gray
+  background-color: gray;
 }
 
 #button {
   color: white;
-  padding: 1% 2%;  
+  padding: 1% 2%;
   margin-left: 20rem;
   border: 1px solid grey;
 }
@@ -117,5 +119,3 @@ input {
   padding: 1% 2%;
   background-color: rgb(139, 135, 135);
 }
-
- 

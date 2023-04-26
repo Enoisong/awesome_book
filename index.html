@@ -10,15 +10,26 @@
 <body>
     <section id="MyBookRecord">
         <h1>
-             Awesome Books
-        </h1>
-        <div id="BookRecord">             
-        </div>
-            <form id="AwsomeBkForm"><br>               
+              All Awesome Books
+        </h1>        
+        <div> 
+            <table class="BookRecord">               
+            <tbody id="BookRecord"></tbody>
+            </table>
+            </div> 
+            <div> 
+                <hr class="divide">
+                <div> 
+     
+            <form id="AwsomeBkForm"><br>
+                <h2>Add a New Book</h2>
+            <div>                              
                     <input id="bookTitle" type="text" placeholder="Title" required> <br><br>
                     <input id="bookAuthors" type="text" placeholder="Author" required> <br><br>
-                    <button id="button" type="submit">Add</button>            
-            </form>    
+                    <button id="button" type="submit">Add</button>           
+            </form>
+            </div>
+            </div>    
     </section>
     <script src="app.js"></script>
 </body>

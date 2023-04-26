@@ -5,15 +5,29 @@ html {
   padding: 10px;
 }
 
-h1 {
+h1, h2 {
   font-size: 2vw;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
 }
 
 #MyBookRecord {
   width: 600px;
+  height: 2vh;
 }
 
-.book_title {
+.bookTitle {
   text-align: center;
 }
 
@@ -22,24 +36,63 @@ hr {
   width: 100%;
 }
 
-.AwsomeBkForm {
-  display: flex;
-  flex-direction: column;
+.divide {
+  border: 1px solid black;
+  width: 25%;
   align-items: center;
 }
 
-#BookRecord {
-  font-size: 1vw;
+.BookRecord {
+  width: 100%;
+  align-self: center;
+  border: 2px solid black;
+  border-spacing: 0;
+  margin: 2rem;
+}
+
+#AwsomeBkForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 2rem;  
+  }
+#AwsomeBkForm #bookTitle {
+  width: 100%
+}
+
+#AwsomeBkForm #bookAuthors {
+  width: 100%
 }
 
 form {
-  width: 60%;
+  width: 100%;
+}
+
+.table-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0;
+}
+
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+.table-item > p {
+  padding: 0;
+  line-height: 0%;
+  margin-left: 3% ;
 }
 
 input {
   width: 50%;
   padding: 5px;
-  border: 1px solid grey;
+  border: 2px solid grey;
+  align-items: center;
+  margin: auto;
+  height: 10px;
 }
 
 #button,
@@ -48,11 +101,21 @@ input {
   border: 1px solid #000;
   padding: 1%;
   border-radius: 7%;
-  background-color: black;
+  background-color: gray
 }
 
-#addBtn {
+#button {
   color: white;
-  padding: 2% 7%;
-  background-color: black;
+  padding: 1% 2%;  
+  margin-left: 20rem;
+  border: 1px solid grey;
 }
+
+.remove {
+  margin-right: 3%;
+  border: 1px solid rgb(54, 54, 54);
+  padding: 1% 2%;
+  background-color: rgb(139, 135, 135);
+}
+
+ 

@@ -29,8 +29,8 @@ awesome_book is an app designed with the ability to add, remove and store books.
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
-- JavaScript objects 
--  Github actions
+- JavaScript classes 
+- Github actions
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML

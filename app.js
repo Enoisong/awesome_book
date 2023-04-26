@@ -11,6 +11,7 @@ class Book {
 }
 
 const mybooks = JSON.parse(localStorage.getItem('bookArchive')) || [];
+
 // function to display books
 function displayBook(bookTitle, bookAuthor, id) {
   const templateHTML = `${bookTitle}<br> ${bookAuthor}<br>

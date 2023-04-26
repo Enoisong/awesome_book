@@ -16,8 +16,7 @@ class bookRack {
     this.booksrecord = JSON.parse(localStorage.getItem('bookArchive')) || [];
   }
 
- 
-static displayBook(bookTitle, bookAuthor, id) {
+ static displayBook(bookTitle, bookAuthor, id) {
   const templateHTML = `
   <tr>
   <td class="table-item"><p>"${bookTitle}" by ${bookAuthor}</p>

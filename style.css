@@ -1,58 +1,58 @@
 html {
-    max-width: 480px;
-    margin: auto;
-    background: white;
-    padding: 10px;    
+  max-width: 480px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 
 h1 {
-    font-size: 2vw;
+  font-size: 2vw;
 }
 
 #MyBookRecord {
-    width: 600px;
+  width: 600px;
 }
 
 .book_title {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    border: 1px solid black;
-    width: 100%;
+  border: 1px solid black;
+  width: 100%;
 }
 
 .AwsomeBkForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #BookRecord {
-    font-size : 1vw;
+  font-size: 1vw;
 }
 
 form {
-    width: 60%;
+  width: 60%;
 }
 
 input {
-   width: 50%;
-   padding: 5px;
-   border: 1px solid grey; 
+  width: 50%;
+  padding: 5px;
+  border: 1px solid grey;
 }
 
 #button,
 .remove {
-    color: white;
-    border: 1px solid #000;
-    padding: 1%;
-    border-radius: 7%;
-    background-color: black
+  color: white;
+  border: 1px solid #000;
+  padding: 1%;
+  border-radius: 7%;
+  background-color: black;
 }
 
 #addBtn {
-    color: white;
-    padding: 2% 7%;
-    background-color: black;
+  color: white;
+  padding: 2% 7%;
+  background-color: black;
 }

@@ -8,6 +8,17 @@
     <title> Awesome Book</title>
 </head>
 <body>
+    <section class="navbar">
+        <nav class="nav">
+            <div><b>Awesome Books</b></div>
+            <div>
+                <a href="#" id="list" onclick="mylists(this)"><span class="maybe">List</span></a>
+                <a href="#" id="adds" onclick="addnew(this)"><span class="maybes">Add New</span></a>
+                <a href="#" id="contacts" onclick="contact(this)"><span class="maybey">Contact</span></a>
+            </div>
+        </nav>
+        <div class="date"></div>
+    </section>
     <section id="MyBookRecord">
         <h1>
               All Awesome Books
@@ -17,21 +28,34 @@
                 <!--BookRecord generated dynamically with JavaScript-->            
             <tbody id="BookRecord"></tbody>
             </table>
-            </div> 
-            <div> 
+            </div>         
                 <hr class="divider">
-                <div> 
-     
-            <form id="AwsomeBkForm"><br>
-                <h2>Add a New Book</h2>
-            <div>                              
+            </section>
+            <section class="mylist" id="mylist">
+            <div>     
+             <form id="AwsomeBkForm"><br>
+                <h2>Add a New Book</h2>                                     
                     <input id="bookTitle" type="text" placeholder="Title" required> <br><br>
                     <input id="bookAuthors" type="text" placeholder="Author" required> <br><br>
                     <button id="button" type="submit">Add</button>           
             </form>
-            </div>
-            </div>    
+            </div>              
+    </section>
+    <section class="contact" id="contact">       
+        <article>
+            <h2>Contact me...</h2>
+            <ul>
+                <li>Email:         enobongitiaba988@gmail.com</li>
+                <li>Phone number:  +234 708 9874 676</li>
+                <li>Address:       Akwa Ibom State, Nigeria</li>
+            </ul>            
+    </section>
+    <section class="footer">
+        <footer>
+            All rights reserved: Enobong Isong
+        </footer>
     </section>
     <script src="app.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

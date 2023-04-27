@@ -5,9 +5,10 @@ const AwsomeBkForm = document.getElementById('AwsomeBkForm');
 const allbooks = document.getElementById('BookRecord');
 
 class Book {
-  constructor(bookTitle, bookAuthor) {
+  constructor(bookTitle, bookAuthors) {
     this.bookTitle = bookTitle;
-    this.bookAuthor = bookAuthor;
+    this.bookAuthors = bookAuthors;
+    this.id = new Date().getTime().toString().concat(performance.now());
   }
 }
 
@@ -16,10 +17,10 @@ class bookRack {
     this.booksrecord = JSON.parse(localStorage.getItem('bookArchive')) || [];
   }
 
-  static displayBook(bookTitle, bookAuthor, id) {
+  static displayBook(bookTitle, bookAuthors, id) {
     const templateHTML = `
   <tr>
-  <td class="table-item"><p>"${bookTitle}" by ${bookAuthor}</p>
+  <td class="table-item"><p>"${bookTitle}" by ${bookAuthors}</p>
     <button type='button' class="remove" id="${id}">Remove</button>
     </td>
     </tr>
@@ -31,7 +32,7 @@ class bookRack {
   static getBooks() {
     const storage = JSON.parse(localStorage.getItem('bookArchive'));
     storage.forEach((book) => {
-      bookRack.displayBook(book.bookTitle, book.bookAuthor, book.id);
+      bookRack.displayBook(book.bookTitle, book.bookAuthors, book.id);
     });
   }
 
@@ -61,6 +62,7 @@ class bookRack {
       bookAuthors.focus();
       bookRack.getBooks();
     });
+
     localStorage.setItem('bookArchive', JSON.stringify(this.booksrecord));
     bookRack.getBooks();
   }

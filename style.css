@@ -5,16 +5,16 @@
 html {
   max-width: 800px;
   margin: auto;
-  background: white;
-  padding: 10px;
-  background: url(./img/img33.png);
-  background-color:darkseagreen;
+  background: white;  
+  background-image: url(./img/img33.png);
+  background-color: darkseagreen;
   background-repeat: no-repeat;
-  padding: 50px;
-  margin-top: 5px;   
+  padding: 10vh;
+  margin-top: 5px;
 }
-  
-h1, h2 {
+
+h1,
+h2 {
   font-size: 1.5vw;
   text-align: center;
   padding: 0;
@@ -33,10 +33,10 @@ h2 {
 
 .lineseparator {
   border-right: 2px;
-
 }
+
 #MyBookRecord {
-  width: 800px;   
+  width: 800px;
 }
 
 .bookTitle {
@@ -55,7 +55,7 @@ hr {
 }
 
 .BookRecord {
-  width: 90%;  
+  width: 90%;
   border: 2px solid black;
   border-spacing: 0;
   margin: 2rem;
@@ -103,7 +103,7 @@ input {
   padding: 5px;
   border: 1px solid grey;
   align-items: center;
-  margin: auto; 
+  margin: auto;
 }
 
 #button,
@@ -161,7 +161,7 @@ a {
   text-decoration: none;
   color: #000;
   font-weight: 600;
-  font-size: 16px;  
+  font-size: 16px;
 }
 
 .hide {

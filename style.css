@@ -1,15 +1,17 @@
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
+
 html {
   max-width: 800px;
   margin: auto;
   background: white;
   padding: 10px;
-  background: url(./img/books.jpg);
+  background: url(./img/img33.png);
+  background-color:darkseagreen;
   background-repeat: no-repeat;
-  padding: 100px;
+  padding: 50px;
+  margin-top: 5px;   
 }
   
 h1,
@@ -30,6 +32,10 @@ h2 {
   text-align: center;
 }
 
+.lineseparator {
+  border-right: 2px solid;
+
+}
 #MyBookRecord {
   width: 800px;   
 }

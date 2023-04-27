@@ -1,14 +1,17 @@
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+
 }
 html {
   max-width: 800px;
   margin: auto;
   background: white;
   padding: 10px;
+  background: url(./img/books.jpg);
+  background-repeat: no-repeat;
+  padding: 100px;
 }
-
+  
 h1,
 h2 {
   font-size: 1.5vw;

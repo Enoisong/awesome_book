@@ -8,12 +8,12 @@
     <title> Awesome Book</title>
 </head>
 <body>
-    <section class="navbar">
-        <nav class="nav">
+    <section class="navigationBar">
+        <nav class="navbar">
             <div><b>Awesome Books</b></div>
             <div>
-                <a href="#" id="list" onclick="mylists(this)"><span class="maybe">List</span></a>
-                <a href="#" id="adds" onclick="addnew(this)"><span class="maybes">Add New</span></a>
+                <a href="#" id="list" onclick="mylists(this)"><span class="maybe">List</span></a> |
+                <a href="#" id="adds" onclick="addnew(this)"><span class="maybes">Add New</span></a> |
                 <a href="#" id="contacts" onclick="contact(this)"><span class="maybey">Contact</span></a>
                 
             </div>
@@ -32,6 +32,7 @@
             </div>         
                 <hr class="divider">
             </section>
+            
             <section class="mylist" id="mylist">
             <div>     
              <form id="AwsomeBkForm"><br>
@@ -42,18 +43,21 @@
             </form>
             </div>              
     </section>
+
     <section class="contact" id="contact">       
         <article>
             <h2>Contact me...</h2>
-            <ul>
-                <li>Email:         enobongitiaba988@gmail.com</li>
-                <li>Phone number:  +234 708 9874 676</li>
-                <li>Address:       Akwa Ibom State, Nigeria</li>
-            </ul>            
+
+            <p> <b>Email</b>:         enobongitiaba988@gmail.com <br>
+                <b>Phone Number</b>:  +234 708 9874 676 <br>
+                <b>Address</b>:       Akwa Ibom State, Nigeria <br>
+            </p>
+        </article>           
     </section>
+
     <section class="footer">
         <footer>
-            All rights reserved: Enobong Isong
+            Copyright: @ 2023
         </footer>
     </section>
     <script src="app.js"></script>

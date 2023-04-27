@@ -14,8 +14,7 @@ html {
   margin-top: 5px;   
 }
   
-h1,
-h2 {
+h1, h2 {
   font-size: 1.5vw;
   text-align: center;
   padding: 0;
@@ -33,7 +32,7 @@ h2 {
 }
 
 .lineseparator {
-  border-right: 2px solid;
+  border-right: 2px;
 
 }
 #MyBookRecord {
@@ -113,7 +112,7 @@ input {
   border: 1px solid #000;
   padding: 1%;
   border-radius: 7%;
-  background-color: rgb(141, 136, 136);
+  background-color: black;
 }
 
 #addBtn {
@@ -141,7 +140,7 @@ article {
   text-align: left;
 }
 
-.navbar {
+.navigationBar {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -149,7 +148,7 @@ article {
   margin-left: 2.5rem;
 }
 
-.nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-self: center;

@@ -48,8 +48,8 @@ awesome_book is an app designed with the ability to add, remove and store books.
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-[Coming soon](#)
-
+ https://enoisong.github.io/awesome_book
+ 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/awesome_book.git
 
